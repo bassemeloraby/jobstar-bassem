@@ -1,7 +1,17 @@
+import styled from "styled-components";
+import Landing from "./pages/Landing";
 
+const Button = styled.button`
+background: red;
+color: white;
+font-size: 2rem;
+` 
 function App() {
   return (
-    <h1>job</h1>
+    <div>
+    <Button>click me</Button>
+      <Landing />
+    </div>
   );
 }
 
